@@ -6,11 +6,13 @@ import Advisory from "./pages/Advisory";
 import Schedule from "./pages/Schedule";
 import Resources from "./pages/Resources";
 import About from "./pages/About";
-import Analytics from "./pages/Analytics";
+import AnalyticsLocal from "./pages/Analytics";
+import { Analytics } from "@vercel/analytics/next"
 
 function App() {
   return (
     <HashRouter>
+      <Analytics />
       <div className="app-shell">
         <Navbar />
         <main className="app-main">
@@ -20,7 +22,7 @@ function App() {
             <Route path="/schedule" element={<Schedule />} />
             <Route path="/resources" element={<Resources />} />
             <Route path="/about" element={<About />} />
-            <Route path="/analytics" element={<Analytics />} />
+            <Route path="/analytics" element={<AnalyticsLocal />} />
           </Routes>
         </main>
         <Footer />
