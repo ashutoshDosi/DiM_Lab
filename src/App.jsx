@@ -7,7 +7,7 @@ import Schedule from "./pages/Schedule";
 import Resources from "./pages/Resources";
 import About from "./pages/About";
 import AnalyticsLocal from "./pages/Analytics";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
