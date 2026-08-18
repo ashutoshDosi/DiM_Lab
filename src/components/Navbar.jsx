@@ -5,6 +5,8 @@ const links = [
   { to: "/advisory", label: "Advisory" },
   { to: "/schedule", label: "Schedule" },
   { to: "/resources", label: "Resources" },
+  { to: "/calculator", label: "Water Calculator" },
+  { to: "/fertilizer", label: "Fertilizer Calculator" },
   { to: "/about", label: "About" },
   { to: "/analytics", label: "Analytics" },
 ];

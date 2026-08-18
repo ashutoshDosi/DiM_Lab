@@ -14,7 +14,7 @@ const SOIL_ADJUST = {
   clay: { label: "Clay", intervalFactor: 1.3, mmFactor: 1.15 },
 };
 
-function getAdvisory({ stage, soilType, daysSinceIrrigation, recentRainfallMm }) {
+export function getAdvisory({ stage, soilType, daysSinceIrrigation, recentRainfallMm }) {
   const stageInfo = STAGE_INFO[stage];
   const soilAdjust = SOIL_ADJUST[soilType];
 

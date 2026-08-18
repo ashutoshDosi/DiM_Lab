@@ -55,6 +55,14 @@ export default function Home() {
             <h3>Resources</h3>
             <p>Best practices and water-conservation tips, plus drip vs. flood irrigation.</p>
           </Link>
+          <Link className="card" to="/calculator">
+            <h3>Water Calculator</h3>
+            <p>Estimate water and cost savings from switching flood irrigation to drip.</p>
+          </Link>
+          <Link className="card" to="/fertilizer">
+            <h3>Fertilizer Calculator</h3>
+            <p>Get a stage-appropriate nitrogen dose estimate for your field.</p>
+          </Link>
           <Link className="card" to="/about">
             <h3>About</h3>
             <p>Why this project exists and who built it.</p>

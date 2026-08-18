@@ -7,6 +7,8 @@ import Schedule from "./pages/Schedule";
 import Resources from "./pages/Resources";
 import About from "./pages/About";
 import AnalyticsLocal from "./pages/Analytics";
+import WaterCalculator from "./pages/WaterCalculator";
+import FertilizerCalculator from "./pages/FertilizerCalculator";
 import { Analytics } from "@vercel/analytics/react"
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
             <Route path="/resources" element={<Resources />} />
             <Route path="/about" element={<About />} />
             <Route path="/analytics" element={<AnalyticsLocal />} />
+            <Route path="/calculator" element={<WaterCalculator />} />
+            <Route path="/fertilizer" element={<FertilizerCalculator />} />
           </Routes>
         </main>
         <Footer />
